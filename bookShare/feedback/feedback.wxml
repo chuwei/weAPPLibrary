@@ -1,0 +1,22 @@
+<!--feedback.wxml-->
+<view class="page">
+  <view class="page__hd">
+  </view>
+  <view class="page__bd">
+  <form bindsubmit="bindFormSubmit">
+    <view class="weui-cells__title">您的建议对我们非常重要</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+                <view class="weui-cell__bd">
+                    <textarea class="weui-textarea" placeholder="请在这里输入您的宝贵意见" style="height: 6.3em" bindinput="inputTyping"/>
+                    <view class="weui-textarea-counter">{{inputCount}}/140</view>
+                </view>
+            </view>
+        </view>
+        <view class="weui-cells__title"></view>
+    <view class="page__bd page__bd_spacing">
+        <button class="weui-btn" type="primary" form-type="submit">提交</button>
+    </view>
+  </form>
+  </view>
+</view>

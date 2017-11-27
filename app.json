@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "bookShare/index",
+    "example/searchbar/searchbar",
+    "example/button/button",
+    "example/input/input",
+    "bookShare/list/list",
+    "bookShare/myInfo/myInfo",
+    "bookShare/feedback/feedback"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "阅乐阅享",
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "backgroundColor": "#f8f8f8"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "tabBar": {
+    "color": "#777777",
+    "selectedColor": "#45c01a",
+    "borderStyle": "black",
+    "backgroundColor": "#f8f8f8",
+    "list": [
+      {
+        "pagePath": "bookShare/index",
+        "iconPath": "images/mainTab.png",
+        "selectedIconPath": "images/selected/mainTab.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "bookShare/list/list",
+        "iconPath": "images/publishTab.png",
+        "selectedIconPath": "images/selected/publishTab.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "bookShare/myInfo/myInfo",
+        "iconPath": "images/contanctTab.png",
+        "selectedIconPath": "images/selected/contanctTab.png",
+        "text": "我"
+      }
+    ]
+  },
+  "debug": true
+}
